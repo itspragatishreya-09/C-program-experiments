@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() { 
+    int a = 5, b = 10, c = 2, result1, result2;
+
+    //With parentheses: forces addition to happen first
+    result2=(a+b)*c;
+
+     printf("a + b * c =%d/n", result1);
+     printf("(a + b) * c =%d/n, result2);
+
+     //Relational and logical operator precedence
+     int x = 5, Y = 10, Z = 15;
+     int LogicResult = X<Y && Y<ZZ; //relational evaluated before logical and
+     printf("x < y && y < z   = %d\n", logicResult); 
+
+     return 0;
+}
